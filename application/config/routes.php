@@ -59,3 +59,16 @@ $route["books"]["post"] = "/books/index";
 $route["books/(:num)"]["put"] = "/books/index/$1";
 $route["books/(:num)"]["delete"] = "/books/index/$1";
 
+$route["costs"]["get"] = "/costs/index";
+$route["costs/(:num)"]["get"] = "/costs/find/$1";
+$route["costs"]["post"] = "/costs/index";
+
+$route["consumption"]["get"] = "/consumption/index";
+$route["consumption/(:num)"]["get"] = "/consumption/find/$1";
+$route["consumption"]["post"] = "/consumption/index";
+
+$route["reloads"]["get"] = "/reloads/index";
+$route["reloads/(:num)"]["get"] = "/reloads/find/$1";
+$route["reloads"]["post"] = "/reloads/index";
+
+
